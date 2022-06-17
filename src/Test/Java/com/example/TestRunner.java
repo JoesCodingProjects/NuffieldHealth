@@ -1,7 +1,8 @@
 package com.example;
 
-import io.cucumber.testng.AbstractTestNGCucumberTests;
 import io.cucumber.testng.CucumberOptions;
+import org.junit.runner.RunWith;
+import io.cucumber.java.*;
 
 @CucumberOptions(
         plugin = {"pretty",
@@ -13,7 +14,6 @@ import io.cucumber.testng.CucumberOptions;
         tags = "@regression"
 )
 
-public class TestRunner extends AbstractTestNGCucumberTests {
-
+public class TestRunner {
 
 }
