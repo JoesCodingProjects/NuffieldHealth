@@ -8,5 +8,5 @@ Feature: GymLocation
 
     Given User clicks location element
 
-
+    Given Testing has passed load cheer button
 
