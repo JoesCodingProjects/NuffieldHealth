@@ -96,6 +96,7 @@
             <version>6.7.0</version>
         </dependency>
 
+
         <!-- https://mvnrepository.com/artifact/info.cukes/cucumber-junit -->
         <dependency>
             <groupId>info.cukes</groupId>
@@ -103,6 +104,12 @@
             <version>1.2.6</version>
             <type>pom</type>
             <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.json</groupId>
+            <artifactId>json</artifactId>
+            <version>20220320</version>
         </dependency>
 
         <dependency>
